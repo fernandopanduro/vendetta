@@ -1,0 +1,41 @@
+.contenedor {
+    margin-top: var(--MarginX);
+}
+
+.contenedorImages {
+    position: relative;
+    height: 18.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contenedorImages:last-of-type {
+    align-items: flex-end;
+    justify-content: end;
+}
+
+.parrafo {
+    max-width: 50%;
+    position: absolute;
+}
+
+.contenedorImages:last-of-type .parrafo {
+    max-width: 45%;
+}
+
+.img {
+    position: absolute;
+    height: 25rem;
+    width: 18.75rem;
+    object-fit: cover;
+    top: 0;
+}
+
+.imgRigth {
+    right: -40%;
+}
+
+.imgLeft {
+    left: -40%;
+}
