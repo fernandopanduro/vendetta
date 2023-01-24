@@ -10,7 +10,7 @@ import imgWebp2 from '../assets/images/New_years_eve_shoot2.webp';
 
 import { Fade } from 'react-reveal';
 
-import { AiOutlineArrowRight } from 'react-icons/ai'
+import { AiOutlineArrowRight } from 'react-icons/ai';
 
 
 export function Inicio() {
@@ -19,23 +19,23 @@ export function Inicio() {
             <div className={styles.inicioDescripcion}>
                 <Fade left>
                     <h1 className={styles.titulo}>VENDETTA</h1>
-                    <p>El look perfecto esta en los detalles</p>
-                    <a href="/" className={styles.link}>Explorar <AiOutlineArrowRight size={22} /> </a>
+                    <p className='parrafo'>El look perfecto esta en los detalles</p>
+                    <a href="/" className={`${styles.link} parrafo`}>Explorar <AiOutlineArrowRight size={25} /> </a>
                 </Fade>
             </div>
             <div className={styles.inicioImagenes}>
                 <picture>
                     <Fade bottom>
-                        <source srcSet={imgAvif} type='image/avif' />
-                        <source srcSet={imgWebp} type='image/webp' />
-                        <img className={styles.img} src={img} alt="" loading='lazy' />
+                        <source srcSet={imgAvif2} type='image/avif' />
+                        <source srcSet={imgWebp2} type='image/webp' />
+                        <img className={styles.img} src={img2} alt="" loading='lazy' />
                     </Fade>
                 </picture>
                 <picture>
                     <Fade bottom>
-                        <source srcSet={imgAvif2} type='image/avif' />
-                        <source srcSet={imgWebp2} type='image/webp' />
-                        <img className={styles.img2} src={img2} alt="" loading='lazy' />
+                        <source srcSet={imgAvif} type='image/avif' />
+                        <source srcSet={imgWebp} type='image/webp' />
+                        <img className={styles.img2} src={img} alt="" loading='lazy' />
                     </Fade>
                 </picture>
             </div>

@@ -54,3 +54,15 @@ li {
     max-width: 1440px;
     width: 90%;
 }
+
+.titulo {
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: var(--W500);
+    margin-bottom: var(--MarginS);
+}
+
+.parrafo {
+    font-size: 1.25rem;
+    font-weight: var(--W300);
+}
