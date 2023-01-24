@@ -1,0 +1,29 @@
+.contenedor {
+    background-color: var(--ColorPrimary);
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    padding: var(--MarginM) 0;
+    margin-top: 7rem;
+}
+
+.descripcion {
+    display: flex;
+    flex-direction: column;
+    gap: var(--MarginSX);
+}
+
+.titulo {
+    margin: 0;
+}
+
+.llamarBtn {
+    background-color: #000;
+    display: block;
+    text-align: center;
+    padding: var(--MarginSX);
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-weight: var(--W500);
+}

@@ -1,5 +1,6 @@
 .contenedor {
     margin-top: var(--MarginX);
+    margin-bottom: var(--MarginX);
 }
 
 .contenedorImages {
