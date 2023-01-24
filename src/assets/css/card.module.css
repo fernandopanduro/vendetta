@@ -1,0 +1,16 @@
+.img {
+    width: 100%;
+    height: 25rem;
+    object-fit: cover;
+}
+
+.descripcion {
+    padding: var(--MarginSX) 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo {
+    max-width: 90%;
+}
