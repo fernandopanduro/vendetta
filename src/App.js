@@ -12,7 +12,7 @@ function App() {
 
       <main className={styles.app}>
 
-      <Navigater />
+      <LandingPage />
 
         {/* <Routes>
           <Route path='/' element={<LandingPage />} />
