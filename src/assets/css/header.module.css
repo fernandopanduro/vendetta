@@ -1,0 +1,23 @@
+.contanedorHeader {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-shadow: 0px 5px 16px -6px rgba(255,255,255,0.75);
+    -moz-box-shadow: 0px 5px 16px -6px rgba(255,255,255,0.75);
+    box-shadow: 0px 5px 16px -6px rgba(255,255,255,0.75);
+    position: fixed;
+}
+
+.header {
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    color: var(--ColorPrimary);
+    font-weight: var(--W700);
+    font-size: 2rem;
+}
