@@ -5,6 +5,7 @@
     justify-content: center;
     margin-top: 6.2rem;
     padding: var(--MarginS) 0;
+    margin-bottom: var(--MarginX);
 }
 
 .descripcion {

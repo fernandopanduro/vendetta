@@ -6,6 +6,7 @@ import styles from '../assets/css/landingPage.module.css';
 import { Vestidos } from "../components/vestidos";
 import { Rentar } from "../components/rentar";
 import { Citas } from "../components/citas";
+import { Visitanos } from "../components/visitanos";
 
 export function LandingPage() {
     return (
@@ -15,6 +16,7 @@ export function LandingPage() {
             <Vestidos /> 
             <Rentar />
             <Citas />
+            <Visitanos />
         </section>
     )
 }

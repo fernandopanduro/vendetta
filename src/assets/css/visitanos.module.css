@@ -1,0 +1,14 @@
+.visitanos {
+    margin-bottom: var(--MarginX);
+}
+
+.descripcion {
+    display: flex;
+    flex-direction: column;
+    gap: var(--MarginSX);
+}
+
+.map {
+    width: 100%;
+    height: 25rem;
+}
