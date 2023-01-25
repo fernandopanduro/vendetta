@@ -1,0 +1,48 @@
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10rem;
+}
+
+.footerContenedor {
+    display: flex;
+    flex-direction: column;
+    gap: var(--MarginS);
+}
+
+.titulo {
+    color: var(--ColorPrimary);
+}
+
+.menuList {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: var(--MarginS);
+}
+
+.menuList div {
+    width: 50%;
+}
+
+.subtitulo {
+    margin-bottom: var(--MarginSXX);
+    color: var(--ColorPrimary);
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--MarginSXX);
+}
+
+.contacto {
+    display: flex;
+    gap: var(--MarginSX);
+}
+
+.parrafo {
+    text-align: center;
+    color: rgba(255, 255, 255, .7);
+    font-size: 1rem;
+}
