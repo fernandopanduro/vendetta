@@ -10,7 +10,7 @@ import { Fade } from 'react-reveal'
 
 export function Card() {
     return (
-        <div>
+        <div className={styles.card}>
             <picture className={styles.picture}>
                 <Fade bottom>
                     <source srcSet={imgAvif} type='image/avif' />

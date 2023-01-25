@@ -1,12 +1,12 @@
 .nav {
     height: 5rem;
+    bottom: 15%;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: var(--MarginM);
     border: 2px;
     position: fixed;
-    bottom: 3%;
     backdrop-filter: blur(10px);
     background-color: rgba(255, 255, 255, 0.1);
     z-index: 100;

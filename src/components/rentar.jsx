@@ -12,7 +12,7 @@ import {Fade} from 'react-reveal'
 
 export function Rentar() {
     return (
-        <section className={`${styles.contenedor} contenedor`}>
+        <section className={`${styles.rentar} contenedor`}>
             <h2 className='titulo'>Rentar</h2>
             <div className={styles.contenedorImages}>
                 <Fade right>

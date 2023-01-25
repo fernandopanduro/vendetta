@@ -1,21 +1,23 @@
-.contenedor {
+.citas {
     background-color: var(--ColorPrimary);
     width: 100%;
-    height: max-content;
     display: flex;
     justify-content: center;
-    padding: var(--MarginM) 0;
-    margin-top: 7rem;
+    margin-top: 6.2rem;
+    padding: var(--MarginS) 0;
 }
 
 .descripcion {
     display: flex;
     flex-direction: column;
-    gap: var(--MarginSX);
+    gap: var(--MarginS);
 }
 
 .titulo {
     margin: 0;
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: var(--W500);
 }
 
 .llamarBtn {
@@ -26,4 +28,5 @@
     border-radius: 5px;
     font-size: 1.5rem;
     font-weight: var(--W500);
+    letter-spacing: 3px;
 }
