@@ -22,7 +22,7 @@ export function Rentar() {
                         <Fade right>
                             <source srcSet={imgAvif} type='image/avif' />
                             <source srcSet={imgWebp} type='image/webp' />
-                            <img className={`${styles.img} ${styles.imgRigth}`} src={img} alt="" loading='lazy' />
+                            <img className={`${styles.img} ${styles.imgRigth}`} src={img} alt="vendetta" loading='lazy' />
                         </Fade>
                     </picture>
             </div>
@@ -34,7 +34,7 @@ export function Rentar() {
                     <Fade left>
                         <source srcSet={imgAvif2} type='image/avif' />
                         <source srcSet={imgWebp2} type='image/webp' />
-                        <img className={`${styles.img} ${styles.imgLeft}`} src={img2} alt="" loading='lazy' />
+                        <img className={`${styles.img} ${styles.imgLeft}`} src={img2} alt="vendetta2" loading='lazy' />
                     </Fade>
                 </picture>
             </div>

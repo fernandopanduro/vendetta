@@ -11,7 +11,7 @@
 .descripcion {
     display: flex;
     flex-direction: column;
-    gap: var(--MarginS);
+    gap: var(--MarginSX);
 }
 
 .titulo {
@@ -30,4 +30,9 @@
     font-size: 1.5rem;
     font-weight: var(--W500);
     letter-spacing: 3px;
+    cursor: pointer;
+}
+
+.img {
+    max-width: 31.25rem;
 }
