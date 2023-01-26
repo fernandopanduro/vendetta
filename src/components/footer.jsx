@@ -17,10 +17,10 @@ export function Footer() {
                         <div>
                             <h3 className={styles.subtitulo}>Menu</h3>
                             <ul className={styles.list}>
-                                <li><a href="">Inicio</a></li>
-                                <li><a href="">Vestidos</a></li>
-                                <li><a href="">Rentar</a></li>
-                                <li><a href="">Visitanos</a></li>
+                                <li><a name='link de secciones' href="#inicio">Inicio</a></li>
+                                <li><a name='link de secciones' href="#vestidos">Vestidos</a></li>
+                                <li><a name='link de secciones' href="#rentar">Rentar</a></li>
+                                <li><a name='link de secciones' href="#visitanos">Visitanos</a></li>
                             </ul>
                         </div>
                         <div>
@@ -34,9 +34,9 @@ export function Footer() {
                         <div>
                             <h3 className={styles.subtitulo}>Contactanos</h3>
                             <ul className={styles.contacto}>
-                                <li><a tel='6693251837'><FaPhoneAlt size={21} /></a></li>
-                                <li><a href='https://www.instagram.com/vendetta_vestidos/'></a><BsInstagram size={21} /></li>
-                                <li><a href='https://api.whatsapp.com/send/?phone=526693251837&text&type=phone_number&app_absent=0'></a><BsWhatsapp size={21} /></li>
+                                <li><a name='links' tel='6693251837'><FaPhoneAlt size={21} /></a></li>
+                                <li><a name='links' href='https://www.instagram.com/vendetta_vestidos/'></a><BsInstagram size={21} /></li>
+                                <li><a name='links' href='https://api.whatsapp.com/send/?phone=526693251837&text&type=phone_number&app_absent=0'></a><BsWhatsapp size={21} /></li>
                             </ul>
                         </div>
                     </div>
