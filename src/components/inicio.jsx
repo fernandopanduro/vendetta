@@ -9,6 +9,7 @@ import imgAvif2 from '../assets/images/New_years_eve_shoot2.avif';
 import imgWebp2 from '../assets/images/New_years_eve_shoot2.webp';
 
 import { Fade } from 'react-reveal';
+import { Link } from 'react-router-dom';
 
 import { AiOutlineArrowRight } from 'react-icons/ai';
 
@@ -20,7 +21,7 @@ export function Inicio() {
                 <Fade left>
                     <h1 className={styles.titulo}>VENDETTA</h1>
                     <p className='parrafo'>El look perfecto esta en los detalles</p>
-                    <a href="/" className={`${styles.link} parrafo`}>Explorar <AiOutlineArrowRight size={25} /> </a>
+                    <Link to='/catalogo' className={`${styles.link} parrafo`}>Explorar <AiOutlineArrowRight size={25} /> </Link>
                 </Fade>
             </div>
             <div className={styles.inicioImagenes}>
