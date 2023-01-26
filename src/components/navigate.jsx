@@ -10,22 +10,22 @@ export function Navigater() {
     return (
         <Fade LightSpeed={3000} bottom >
             <nav className={styles.nav}>
-                <div className={styles.navList}>
+                <a href='#inicio' name='Enlace a Inicio' className={styles.navList}>
                     <BiHomeAlt size={25}/>
-                    <a href='#inicio' name='Enlace a Inicio'>Inicio</a>
-                </div>
-                <div className={styles.navList}>
+                    <p>Inicio</p>
+                </a>
+                <a href='#vestidos' name='Enlace a Vestidos' className={styles.navList}>
                     <GiAmpleDress size={25}/>
-                    <a href='#vestidos' name='Enlace a Vestidos'>Vestidos</a>
-                </div>
-                <div className={styles.navList}>
+                    <p>Vestidos</p>
+                </a>
+                <a href='#rentar' name='Enlace a Rentar' className={styles.navList}>
                     <BiCalendar size={25}/>
-                    <a href='#rentar' name='Enlace a Rentar'>Rentar</a>
-                </div>
-                <div className={styles.navList}>
+                    <p>Rentar</p>
+                </a>
+                <a href='#visitanos' name='Enlace a Visitanos' className={styles.navList}>
                     <GoLocation size={25}/>
-                    <a href='#visitanos' name='Enlace a Visitanos'>Visitanos</a>
-                </div>
+                    <p>Visitanos</p>
+                </a>
             </nav>
         </Fade>
     )

@@ -11,7 +11,7 @@ export function Footer() {
                 <Fade bottom>
                     <div>
                         <h2 className={styles.titulo}>VENDETTA</h2>    
-                        <p className='parrafo'>Tienda de ropa para mujeres</p>
+                        <p >Tienda de ropa para mujeres</p>
                     </div>
                     <div className={styles.menuList}>
                         <div>
@@ -41,8 +41,8 @@ export function Footer() {
                         </div>
                     </div>
                     <div>
-                        <p className={`${styles.parrafo} parrafo`}>Vendetta. Todos los derechos revervados</p>
-                        <p className={`${styles.parrafo} parrafo`}>Terminos y Condicionos</p>
+                        <p className={`${styles.parrafo}`}>Vendetta. Todos los derechos revervados</p>
+                        <p className={`${styles.parrafo}`}>Terminos y Condicionos</p>
                     </div>
                 </Fade>
             </div>
