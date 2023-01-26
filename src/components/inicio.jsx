@@ -15,7 +15,7 @@ import { AiOutlineArrowRight } from 'react-icons/ai';
 
 export function Inicio() {
     return (
-        <div className={`${styles.inicio} contenedor`}>
+        <div id='inicio' className={`${styles.inicio} contenedor`}>
             <div className={styles.inicioDescripcion}>
                 <Fade left>
                     <h1 className={styles.titulo}>VENDETTA</h1>

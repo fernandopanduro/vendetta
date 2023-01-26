@@ -6,7 +6,7 @@ import { AiOutlineArrowRight } from 'react-icons/ai';
 
 export function Vestidos() {
     return (
-        <section className={`${styles.vestidos} contenedor`}>
+        <section id='vestidos' className={`${styles.vestidos} contenedor`}>
             <h2 className='titulo'>Vestidos</h2>
             <Card />
             <Card />

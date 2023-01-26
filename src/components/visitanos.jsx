@@ -5,7 +5,7 @@ import { Fade } from 'react-reveal';
 
 export function Visitanos() {
     return (
-        <section className={`${styles.visitanos} contenedor`}>
+        <section id='visitanos' className={`${styles.visitanos} contenedor`}>
             <h2 className="titulo">Visitanos</h2>
             <div className={styles.descripcion}>
                 <Fade bottom>

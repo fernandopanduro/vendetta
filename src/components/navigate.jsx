@@ -12,19 +12,19 @@ export function Navigater() {
             <nav className={styles.nav}>
                 <div className={styles.navList}>
                     <BiHomeAlt size={25}/>
-                    <p>Inicio</p>
+                    <a href='#inicio' name='Enlace a Inicio'>Inicio</a>
                 </div>
                 <div className={styles.navList}>
                     <GiAmpleDress size={25}/>
-                    <p>Vestidos</p>
+                    <a href='#vestidos' name='Enlace a Vestidos'>Vestidos</a>
                 </div>
                 <div className={styles.navList}>
                     <BiCalendar size={25}/>
-                    <p>Rentar</p>
+                    <a href='#rentar' name='Enlace a Rentar'>Rentar</a>
                 </div>
                 <div className={styles.navList}>
                     <GoLocation size={25}/>
-                    <p>Visitanos</p>
+                    <a href='#visitanos' name='Enlace a Visitanos'>Visitanos</a>
                 </div>
             </nav>
         </Fade>
