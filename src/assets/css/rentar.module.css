@@ -12,7 +12,7 @@
 
 .contenedorImages:last-of-type {
     align-items: flex-end;
-    justify-content: end;
+    justify-content: center;
 }
 
 .parrafo {
@@ -26,16 +26,16 @@
 
 .img {
     position: absolute;
-    height: 25rem;
-    width: 18.75rem;
+    height: 19.25rem;
+    width: 13.75rem;
     object-fit: cover;
     top: 0;
 }
 
 .imgRigth {
-    right: -40%;
+    right: -18%;
 }
 
 .imgLeft {
-    left: -40%;
+    left: -16%;
 }
