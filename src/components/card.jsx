@@ -1,29 +1,27 @@
 import styles from '../assets/css/card.module.css';
 
-import img from '../assets/images/Vestido_instylebyak.jpg'
-import imgAvif from '../assets/images/Vestido_instylebyak.avif'
-import imgWebp from '../assets/images/Vestido_instylebyak.webp'
-
 import { AiOutlineArrowRight } from 'react-icons/ai';
-
 import { Fade } from 'react-reveal'
+import { Link } from 'react-router-dom';
 
-export function Card() {
+export function Card({img, imgAvif, imgWebp}) {
     return (
         <div className={styles.card}>
-            <picture className={styles.picture}>
+            <Link to='/catalogo'>
+                <picture className={styles.picture}>
+                    <Fade bottom>
+                        <source srcSet={imgAvif} type='image/avif' />
+                        <source srcSet={imgWebp} type='image/webp' />
+                        <img className={styles.img} src={img} alt="" loading='lazy' />
+                    </Fade>
+                </picture>
                 <Fade bottom>
-                    <source srcSet={imgAvif} type='image/avif' />
-                    <source srcSet={imgWebp} type='image/webp' />
-                    <img className={styles.img} src={img} alt="" loading='lazy' />
+                    <div className={styles.descripcion}>
+                        <h3 className={`${styles.titulo} parrafo`}>Vestido Instylebyak</h3>
+                        <AiOutlineArrowRight size={22} />
+                    </div>
                 </Fade>
-            </picture>
-            <Fade bottom>
-                <div className={styles.descripcion}>
-                    <h3 className={`${styles.titulo} parrafo`}>Vestido Instylebyak</h3>
-                    <AiOutlineArrowRight size={22} />
-                </div>
-            </Fade>
+            </Link>
         </div>
     )
 }
