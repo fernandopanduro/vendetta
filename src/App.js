@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Routes, Route, Link, Navigate } from "react-ro
 
 import { LandingPage } from "./pages/landinPage";
 import { Footer } from "./components/footer";
+import { Catalogo } from "./pages/catalogo";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Routes>
 
           <Route path='/' element={<LandingPage />} />
+          <Route path='/catalogo' element={<Catalogo />} />
           
           <Route path='*' element={<Navigate replace to='/' />} />
 

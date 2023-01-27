@@ -16,6 +16,8 @@ import img3 from '../assets/images/Vestido_rojo_noche.jpg'
 import imgAvif3 from '../assets/images/Vestido_rojo_noche.avif'
 import imgWebp3 from '../assets/images/Vestido_rojo_noche.webp'
 
+import { Link } from 'react-router-dom';
+
 export function Vestidos() {
     return (
         <section id='vestidos' className={`${styles.vestidos} contenedor`}>
@@ -25,7 +27,7 @@ export function Vestidos() {
                 <Card img={img2} imgAvif={imgAvif2} imgWebp={imgWebp2} />
                 <Card img={img3} imgAvif={imgAvif3} imgWebp={imgWebp3} />    
             </div>
-            <a className={styles.link} href="">Ver mas <AiOutlineArrowRight size={28} /></a>
+            <Link className={styles.link} to='/catalogo'>Ver mas <AiOutlineArrowRight size={28} /></Link>
         </section>
     )
 }

@@ -10,7 +10,7 @@ export function Header() {
         <Fade top>
             <header className={styles.contanedorHeader}>
                 <div className={`${styles.header} contenedor`}>
-                    {/* <Link to='/'> */}<h2 className={styles.title}>VENDETTA</h2>{/* </Link> */}
+                    <Link to='/'><h1 className={styles.title}>VENDETTA</h1></Link>
                     <a name='Instagram' href="https://www.instagram.com/vendetta_vestidos/" target="_blank" rel="noopener noreferrer"><BsInstagram size={30} /></a>
                 </div>
             </header>

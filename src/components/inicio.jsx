@@ -19,7 +19,7 @@ export function Inicio() {
         <div id='inicio' className={`${styles.inicio} contenedor`}>
             <div className={styles.inicioDescripcion}>
                 <Fade left>
-                    <h1 className={styles.titulo}>VENDETTA</h1>
+                    <h2 className={styles.titulo}>VENDETTA</h2>
                     <p className='parrafo'>El look perfecto esta en los detalles</p>
                     <Link to='/catalogo' className={`${styles.link} parrafo`}>Explorar <AiOutlineArrowRight size={25} /> </Link>
                 </Fade>
