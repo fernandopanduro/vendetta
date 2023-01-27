@@ -1,0 +1,7 @@
+.catalogo {
+    margin-top: calc(5rem + var(--MarginS));
+}
+
+.contenedorCards {
+    width: 100%;
+}
