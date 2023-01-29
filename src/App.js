@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Routes, Route, Link, Navigate } from "react-ro
 import { LandingPage } from "./pages/landinPage";
 import { Footer } from "./components/footer";
 import { Catalogo } from "./pages/catalogo";
+import { ProductoDetalles } from './pages/productoDetalles';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
 
           <Route path='/' element={<LandingPage />} />
           <Route path='/catalogo' element={<Catalogo />} />
+          <Route path='/vestido' element={<ProductoDetalles />} />
           
           <Route path='*' element={<Navigate replace to='/' />} />
 

@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 export function Card({img, imgAvif, imgWebp}) {
     return (
         <div className={styles.card}>
-            <Link to='/catalogo'>
+            <Link to='/vestido'>
                 <picture className={styles.picture}>
                     <Fade bottom>
                         <source srcSet={imgAvif} type='image/avif' />
