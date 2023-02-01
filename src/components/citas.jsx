@@ -11,10 +11,12 @@ export function Citas() {
         <section className={`${styles.citas}`}>
             <div className={`${styles.descripcion} contenedor`}>
                 <Fade bottom>
-                    <h2 className={`${styles.titulo}`}>Citas</h2>
-                    <p className='parrafo'>Llamanos para aclarar todas tus dudas y pregunta por nuestras promociones exclusivas.</p>
-                    <p className='parrafo'>Agenda una cita y reserva tu vestido favorito.</p>
-                    <a name='telefono de vendetta' className={styles.llamarBtn} href='tel:6693251837'><FaPhoneAlt /> Llamar</a>
+                    <div>
+                        <h2 className={`${styles.titulo}`}>Citas</h2>
+                        <p className='parrafo'>Llamanos para aclarar todas tus dudas y pregunta por nuestras promociones exclusivas.</p>
+                        <p className='parrafo'>Agenda una cita y reserva tu vestido favorito.</p>
+                        <a name='telefono de vendetta' className={styles.llamarBtn} href='tel:6693251837'><FaPhoneAlt /> Llamar</a>
+                    </div>
                     <img src={svg} className={styles.img} loading='lazy' alt="compras"/>
                 </Fade>
             </div>
