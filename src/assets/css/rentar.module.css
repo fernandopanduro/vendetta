@@ -24,6 +24,17 @@
     max-width: 45%;
 }
 
+@media (min-width: 568px) {
+    .parrafo {
+        max-width: 30%;
+        position: absolute;
+    }
+    
+    .contenedorImages:last-of-type .parrafo {
+        max-width: 25%;
+    }
+}
+
 .img {
     position: absolute;
     height: 19.25rem;
@@ -38,4 +49,14 @@
 
 .imgLeft {
     left: -16%;
+}
+
+@media (min-width: 720px) {
+    .imgRigth {
+        right: 0%;
+    }
+    
+    .imgLeft {
+        left: 0%;
+    }
 }
