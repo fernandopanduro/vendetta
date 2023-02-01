@@ -34,9 +34,9 @@ export function Footer() {
                         <div>
                             <h3 className={styles.subtitulo}>Contactanos</h3>
                             <ul className={styles.contacto}>
-                                <li><a name='links' tel='6693251837'><FaPhoneAlt size={21} /></a></li>
-                                <li><a name='links' href='https://www.instagram.com/vendetta_vestidos/'></a><BsInstagram size={21} /></li>
-                                <li><a name='links' href='https://api.whatsapp.com/send/?phone=526693251837&text&type=phone_number&app_absent=0'></a><BsWhatsapp size={21} /></li>
+                                <li><a name='links a telefono' href='tel:6693251837'><FaPhoneAlt size={21} /></a></li>
+                                <li><a name='links a instagram' href='https://www.instagram.com/vendetta_vestidos/'><BsInstagram size={21} /> </a></li>
+                                <li><a name='links a whatsapp' href='https://api.whatsapp.com/send/?phone=526693251837&text&type=phone_number&app_absent=0'><BsWhatsapp size={21} /></a></li>
                             </ul>
                         </div>
                     </div>
