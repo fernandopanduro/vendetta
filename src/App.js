@@ -20,7 +20,7 @@ function App() {
 
           <Route path='/' element={<LandingPage />} />
           <Route path='/catalogo' element={<Catalogo />} />
-          <Route path='/vestido' element={<ProductoDetalles />} />
+          <Route path='/producto/:vestidoId' element={<ProductoDetalles />} />
           
           <Route path='*' element={<Navigate replace to='/' />} />
 
