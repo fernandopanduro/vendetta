@@ -1,6 +1,6 @@
 <h1 align="center"> ⭐ Vendetta ⭐ </h1>
 
-<p align="center"> Tienda de ropa, de una marca emergente llamado Stania</p> 
+<p align="center"> Tienda de ropa para mujeres </p> 
 
 
 
