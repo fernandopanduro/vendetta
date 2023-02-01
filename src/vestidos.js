@@ -76,7 +76,7 @@ export const Productos = [
     },
     {
         Id: '005',
-        Descripcion: 'La sencillez es la verdadera clave de la elegancia. 🍸 Vestido terciopelo azul talla S ✨',
+        Descripcion: 'NEW YEARS EVE SHOOT 🥂✨ Conjunto disponible en nuestra tienda.',
         ImagnesJpg: [
             'https://raw.githubusercontent.com/fernandopanduro/vendetta/51b212aba8fd11a59e6305f3e936cdc9fad3b7f6/src/assets/images/New_years_eve_shoot.jpg',
             'https://raw.githubusercontent.com/fernandopanduro/vendetta/51b212aba8fd11a59e6305f3e936cdc9fad3b7f6/src/assets/images/New_years_eve_shoot2.jpg',
@@ -99,7 +99,7 @@ export const Productos = [
     },
     {
         Id: '006',
-        Descripcion: 'NEW YEARS EVE SHOOT 🥂✨ Conjunto disponible en nuestra tienda.',
+        Descripcion: 'La sencillez es la verdadera clave de la elegancia. 🍸 Vestido terciopelo azul talla S ✨',
         ImagnesJpg: [
             'https://raw.githubusercontent.com/fernandopanduro/vendetta/51b212aba8fd11a59e6305f3e936cdc9fad3b7f6/src/assets/images/Vestido_azul_terciopelo.jpg',
             'https://raw.githubusercontent.com/fernandopanduro/vendetta/51b212aba8fd11a59e6305f3e936cdc9fad3b7f6/src/assets/images/Vestido_azul_terciopelo2.jpg',
