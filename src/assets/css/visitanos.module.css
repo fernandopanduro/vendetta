@@ -8,6 +8,14 @@
     gap: var(--MarginSX);
 }
 
+@media (min-width: 720px) {
+    .descripcion > p {
+        text-align: center;
+    }
+    .descripcion > a {
+        text-align: center;
+    }
+}
 .map {
     width: 100%;
     height: 25rem;
