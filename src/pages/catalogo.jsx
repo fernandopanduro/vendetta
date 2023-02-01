@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet';
 import styles from '../assets/css/catalogo.module.css';
 
 import { Card } from '../components/card';
@@ -8,6 +9,10 @@ import { Productos } from '../vestidos';
 export function Catalogo() {
     return (
         <section className={`${styles.catalogo} contenedor`}>
+            <Helmet>
+                <title>Vendetta Vestidos Mazatlan | Catalogo 📖</title>
+                <meta name="description" content={`Catalogo de Vendetta vestidos en mazatlan sinaloa`} />
+            </Helmet>
             <h2 className='titulo'>Catalogo</h2>
             <Ruta ruta='Catalogo' />
             <div className={styles.contenedorCards}>

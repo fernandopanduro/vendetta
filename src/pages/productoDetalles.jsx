@@ -7,6 +7,7 @@ import { Fade } from 'react-reveal';
 import { useParams } from 'react-router-dom';
 import { Productos } from '../vestidos';
 import { useState } from 'react';
+import { Helmet } from 'react-helmet';
 
 export function ProductoDetalles() {
 
@@ -31,6 +32,12 @@ export function ProductoDetalles() {
 
     return (
         <section className={`${styles.productoDetalles} contenedor`}>
+
+            <Helmet>
+                <title>Vendetta | Vestido 🥂 | {descripcion}</title>
+                <meta name="description" content={`Sitio web de Vendetta vestidos en mazatlan sinaloa | ${descripcion}`} />
+            </Helmet>
+
             <Ruta ruta='Vestido' />
 
             <div>
