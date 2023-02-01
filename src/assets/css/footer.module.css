@@ -15,10 +15,26 @@
     color: var(--ColorPrimary);
 }
 
+@media (min-width: 720px) {
+    .contenedorTitulo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 .menuList {
     display: flex;
     flex-wrap: wrap;
     row-gap: var(--MarginS);
+}
+
+@media (min-width: 720px) {
+    .menuList {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(33%, auto));
+        justify-content: space-between;
+    } 
 }
 
 .menuList div {

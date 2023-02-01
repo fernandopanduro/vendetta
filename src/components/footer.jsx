@@ -9,7 +9,7 @@ export function Footer() {
         <footer className={styles.footer}>
             <div className={`${styles.footerContenedor} contenedor`}>
                 <Fade bottom>
-                    <div>
+                    <div className={styles.contenedorTitulo}>
                         <h2 className={styles.titulo}>VENDETTA</h2>    
                         <p >Tienda de ropa para mujeres</p>
                     </div>
