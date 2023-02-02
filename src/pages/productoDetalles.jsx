@@ -40,34 +40,38 @@ export function ProductoDetalles() {
 
             <Ruta ruta='Vestido' />
 
-            <div>
+            <div className={styles.contenedorProducto}>
 
-                <div>
-                    <picture className={styles.picture}>
-                        <Fade bottom>
-                            <img className={styles.img} src={img} alt={descripcion} loading='lazy' />
-                        </Fade>
-                    </picture>
+                <div className={styles.contenedorImages}>
+
+                    <div>
+                        <picture className={styles.picture}>
+                            <Fade bottom>
+                                <img className={styles.img} src={img} alt={descripcion} loading='lazy' />
+                            </Fade>
+                        </picture>
+                    </div>
+
+                    <div className={styles.pictures}>    
+
+                        <picture className={`${styles.picture}`}>
+                            <Fade left>
+                                {   
+                                    imagenesJpg.map((imagen, i) => (
+                                        <img 
+                                        src={imagen} 
+                                        className={styles.imgSecundaria}
+                                        onMouseOver={() => hoverHandler(imagen, i)}
+                                        key={i}
+                                        alt={descripcion}
+                                        />
+                                    ))
+                                }
+                            </Fade>
+                        </picture>                    
+                    </div>
                 </div>
 
-                <div>    
-
-                    <picture className={styles.picture}>
-                        <Fade left>
-                            {   
-                                imagenesJpg.map((imagen, i) => (
-                                    <img 
-                                    src={imagen} 
-                                    className={styles.imgSecundaria}
-                                    onMouseOver={() => hoverHandler(imagen, i)}
-                                    key={i}
-                                    alt={descripcion}
-                                    />
-                                ))
-                            }
-                        </Fade>
-                    </picture>                    
-                </div>
 
                 <div className={styles.detalles}>
                     <Fade top>
@@ -76,8 +80,9 @@ export function ProductoDetalles() {
                         <a name='instagram de vendetta' className={`${styles.llamarBtn} ${styles.igBtn}`} href="https://www.instagram.com/vendetta_vestidos/"><BsInstagram size={27} /> Instagram</a>
                     </Fade>
                 </div>
-
+            
             </div>
+
 
         </section>
         )

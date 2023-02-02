@@ -2,6 +2,23 @@
     margin-top: calc(5rem + var(--MarginS));
 }
 
+.contenedorProducto {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 720px) {
+    .contenedorProducto {
+        flex-direction: row;
+        align-items: center;
+        gap: var(--MarginSX);
+    }
+}
+
+.contenedorImages {
+    width: 100%;
+}
+
 .img {
     width: 100%;
     max-width: 26.25rem;
