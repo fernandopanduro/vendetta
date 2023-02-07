@@ -76,7 +76,7 @@ export function ProductoDetalles() {
                 <div className={styles.detalles}>
                     <Fade top>
                         <h2 className={styles.titulo}>{descripcion}</h2>
-                        <a name='telefono de vendetta' className={styles.llamarBtn} tel="6693251837"><FaPhoneAlt /> Llamar</a>
+                        <a name='telefono de vendetta' className={styles.llamarBtn} href='tel:6693251837'><FaPhoneAlt /> Llamar</a>
                         <a name='instagram de vendetta' className={`${styles.llamarBtn} ${styles.igBtn}`} href="https://www.instagram.com/vendetta_vestidos/"><BsInstagram size={27} /> Instagram</a>
                     </Fade>
                 </div>

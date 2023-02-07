@@ -2,7 +2,11 @@
     margin-bottom: var(--MarginS);
     max-width: 25rem;
     width: 100%;
-    height: 25rem;
+    height: 22.5rem;
+}
+
+.card:last-child {
+    margin-bottom: 0;
 }
 
 .img {

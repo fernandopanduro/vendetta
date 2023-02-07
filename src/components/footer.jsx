@@ -28,7 +28,7 @@ export function Footer() {
                             <ul className={styles.list}>
                                 <li>Lunes a Viernes</li>
                                 <li>10 am - 14 pm</li>
-                                <li>17 am - 20 pm</li>
+                                <li>17 pm - 20 pm</li>
                             </ul>
                         </div>
                         <div>

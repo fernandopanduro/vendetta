@@ -14,7 +14,7 @@ export function Vestidos() {
                 <Card id={Productos[1].Id} descripcion={Productos[1].Descripcion} img={Productos[1].ImagnesJpg[0]} imgAvif={Productos[1].ImagnesAvif[0]} imgWebp={Productos[1].ImagnesWebp[0]} />
                 <Card id={Productos[2].Id} descripcion={Productos[2].Descripcion} img={Productos[2].ImagnesJpg[0]} imgAvif={Productos[2].ImagnesAvif[0]} imgWebp={Productos[2].ImagnesWebp[0]} />
             </div>
-            <Link className={styles.link} to='/catalogo'>Ver mas <AiOutlineArrowRight size={28} /></Link>
+                <Link className={styles.link} to='/catalogo'>Ver mas <AiOutlineArrowRight size={28} /></Link>
         </section>
     )
 }
